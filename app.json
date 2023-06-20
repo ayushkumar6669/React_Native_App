@@ -15,16 +15,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ayush6669.ayush"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ayush6669.ayush"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme":"Ayush"
   }
 }
